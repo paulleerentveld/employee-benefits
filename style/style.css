@@ -2,3 +2,18 @@ iframe {
     width: 1px;
     min-width: 100%;
   }
+
+
+
+.btn-more {
+  background-color: #00A39C;
+  float: right;
+  border-color: #00A39C;
+  position: relative;
+  bottom: 2px;
+  right: 1px;
+}
+
+.btn-more:hover {
+  background-color: #636B70;
+}
