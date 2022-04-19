@@ -4,16 +4,86 @@ iframe {
   }
 
 
+/* 
+Override Bootstrap colors for .btn-more button class 
+And float button to bottom right of card. 
+*/
+.btn-more {
+    color: #fff;
+    background-color: #00A39C;
+    border-color: #00A39C;
+    float: right;
+    position: relative;
+    bottom: 2px;
+}
+
+.btn-more:active{
+  background:#007f79;
+}
+
+.btn-more:focus{
+  background: #007f79;
+}
 
 .btn-more {
+  color: #fff;
   background-color: #00A39C;
-  float: right;
   border-color: #00A39C;
-  position: relative;
-  bottom: 2px;
-  right: 1px;
 }
 
 .btn-more:hover {
-  background-color: #636B70;
+  color: #fff;
+  background-color: #007f79;
+  border-color: #007f79;
+}
+
+.btn-more:focus, .btn-more.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 163, 156, 0.5);
+}
+
+.btn-more.disabled, .btn-more:disabled {
+  color: #fff;
+  background-color: #00A39C;
+  border-color: #00A39C;
+}
+
+.btn-more:not(:disabled):not(.disabled):active, .btn-more:not(:disabled):not(.disabled).active, .show > .btn-more.dropdown-toggle {
+  color: #fff;
+  background-color: #007f79;
+  border-color: #00605c;
+}
+
+.btn-more:not(:disabled):not(.disabled):active:focus, .btn-more:not(:disabled):not(.disabled).active:focus, .show > .btn-more.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 163, 156, 0.5);
+}
+
+.btn-outline-primary {
+  color: #00A39C;
+  background-color: transparent;
+  border-color: #00A39C;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #00A39C;
+  border-color: #00A39C;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 163, 156, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #00A39C;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #00A39C;
+  border-color: #00A39C;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 163, 156, 0.5);
 }
