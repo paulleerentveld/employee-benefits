@@ -3,6 +3,13 @@ iframe {
     min-width: 100%;
   }
 
+.shadGreen {
+  color: #007f79;
+}
+
+.westfundOrange {
+  color: #F06020;
+}
 
 /* 
 Override Bootstrap colors for .btn-more button class 
